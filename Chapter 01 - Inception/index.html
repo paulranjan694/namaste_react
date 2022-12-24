@@ -8,6 +8,24 @@
 </head>
 <body>
     <!-- Adding "Namaste React!!" directly to HTML page-->
-    <h1>Namaste React!!</h1>
+    <!-- <h1>Namaste React!!</h1> -->
+
+    <!-- Adding "Namaste React!!" using JS to HTML page -->
+    <!-- html code -->
+    <div id="root"></div>
+
+    <script>
+/*  
+    Adding "Namaste React!!" using JS to HTML page 
+     JS code
+     */
+        const h1 = document.createElement("h1");
+        h1.innerHTML = "Namaste React!!";
+
+        const root = document.getElementById("root");
+        root.append(h1);
+
+
+    </script>
 </body>
 </html>
