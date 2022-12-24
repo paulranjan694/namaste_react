@@ -3,7 +3,7 @@
 
 ## Description
 
- This git repo contains code and assimnents of all the chapters of **Namaste React** course.
+ This git repo contains code and assignments of all the chapters of **Namaste React** course.
 
 ## Authors
 
