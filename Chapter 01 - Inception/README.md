@@ -47,14 +47,13 @@
     - Async scripts load in the background and run when ready
     - The browser doesn’t block on async scripts
     - DOMContentLoaded may happen both before and after async, no guarantees here.
-    - **Important** - The async attribute is only for external scripts
+    :warning: **The async attribute is only for external scripts**
     [Reference](https://javascript.info/script-async-defer)
 
 
 ## Important Concepts/Questions w.r.t. Interview
-1. Passing Multiple children in React.createElement
-
-:point_right: React.createElement("div",{className:"container"},[h1,h2]); 
+:point_right: Passing Multiple children in React.createElement :heavy_minus_sign: React.createElement("div",{className:"container"},**[** h1,h2 **]**); // pass multiple elements in array
+:point_right: root.render(children) will replace all the previous content which is present in div#root 
     
 ## Authors
 - [Ranjan Paul](https://www.linkedin.com/in/ranjan-paul-681730171/)
