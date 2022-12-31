@@ -55,6 +55,8 @@
 ## Important Concepts/Questions w.r.t. Interview
 :point_right: Passing Multiple children in React.createElement :heavy_minus_sign: React.createElement("div",{className:"container"},**[** h1,h2 **]**); // pass multiple elements in array
 
+:point_right: Args in in React.createElement[React.createElement("div",{className:"container"},"Hello World")] - html element, props, children
+
 :point_right: root.render(children) will replace all the previous content which is present in div#root 
     
 ## Authors
