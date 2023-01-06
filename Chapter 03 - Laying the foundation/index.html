@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <!-- Adding "Namaste React!!" directly to HTML page-->
+    <!-- <h1>Namaste React!!</h1> -->
+
+    <!-- Adding "Namaste React!!" using JS to HTML page -->
+    <!-- html code -->
+    <!-- <div id="root"></div> -->
+
+     <!-- Adding "Namaste React!!" using React to HTML page -->
+    <!-- html code -->
+    <div id="root">Not rendered</div>
+
+
+    <!-- React & React DOM CDN -->
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+
+    <script type="module" src="./app.js"></script> 
+    <!-- we have to sepcify type="module" to app.js-->
+    <script>
+/*  
+    Adding "Namaste React!!" using JS to HTML page 
+     JS code
+     */
+        // const h1 = document.createElement("h1");
+        // h1.innerHTML = "Namaste React!!";
+
+        // const root = document.getElementById("root");
+        // root.append(h1);
+
+        // using React - taking the react code to new file...
+        // const root = ReactDOM.createRoot(document.getElementById("root"));
+
+        // const h1 = React.createElement("h1",{className:"title"},"Namaste React!!"); // args in createElement api - element, props/attributes passed to the element, children (to be displayed/rendered inside element)
+
+        // root.render(h1);
+
+    </script>
+</body>
+</html>
